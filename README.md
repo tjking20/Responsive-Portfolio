@@ -1,2 +1,1 @@
-# Responsive-Portfolio
-Mobile responsive portfolio
+# Basic-Portfolio

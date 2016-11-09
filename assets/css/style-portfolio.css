@@ -1,0 +1,32 @@
+.portfolio{
+	height: 925px;
+}
+
+
+.projects {
+	width: 275px;
+	float: left;
+	text-align: center;
+
+}
+
+		#hangman, #trivia, #rockpaper{
+			margin-right: 37px;
+		}
+
+
+				.image{ 
+					width: 275px;
+				}
+
+
+				p {
+					position:relative;
+					bottom: 55px;
+					background-color: #4aaaa5;
+					color: white;
+					padding: 10px 0px;
+					position: relative;
+					bottom: px;
+			
+
