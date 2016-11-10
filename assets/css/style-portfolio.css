@@ -28,5 +28,76 @@
 					padding: 10px 0px;
 					position: relative;
 					bottom: px;
+				}
 			
+
+
+
+
+
+
+@media screen and (max-width: 980px){
+
+
+		.portfolio {
+			background-color:;
+			max-height: 2000px;
+			height: 100%;
+		}
+
+		.projects {
+			width: 355px;
+
+		}
+
+		.image { 
+			width: 355px;
+		}
+		
+		
+}
+
+
+
+
+@media screen and (max-width: 768px){
+
+	.projects {
+		width: 300px;
+		float: left;
+	}
+
+	.image{ 
+		width: 300px;
+	}
+
+
+	#hangman, #trivia, #rockpaper{
+		margin-right: 60px;
+		}
+}
+
+
+
+
+@media screen and (max-width: 640px){
+
+
+		.portfolio {
+			background-color:;
+			max-height: 5000px;
+			height: 100%;
+		}
+
+		.projects {
+			width: 578px;
+
+		}
+
+		.image { 
+			width: 578px;
+		}
+		
+		
+}
 

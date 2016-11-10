@@ -15,6 +15,7 @@ body {
 	font-color: #777777;
 	background-image: url(../images/background-pattern.png);
 	font-family: times, times new roman, sans, sans-serif;
+	overflow-x: hidden;
 
 }
 
@@ -157,7 +158,7 @@ footer{
 	border-top: 8px solid #4aaaa5;
 	color: #BDC4BA;
 	width: 100%;
-	margin: 0px
+	margin: 0px;
 }
 	
 
@@ -205,6 +206,7 @@ footer{
 				#tjk{
 					float: none;
 					width: 200px;
+					padding-bottom: 10px;
 				}
 
 
@@ -214,36 +216,19 @@ footer{
  			display: inline;
 			margin-right: 100px;
 
+
 		}
 
 }
 
 
-
-		
-/* 		--------Portfolio page commands--------- */
-/*
-		.portfolio {
-			background-color: #87D9FA;
-			height: 1000px
-		}
-
-		.projects {
-			width: 400px;
-
-		}
-
-		.image { 
-			width: 400px;
-		}
-
-
-}
-
-*/
 
 
 @media screen and (max-width: 768px){
+
+	.container{
+		width:768px
+	}
 
 	#header{
 		position: fixed:
@@ -253,7 +238,7 @@ footer{
 	}
 
 	#navbar{
-		margin-right: 00px;
+		margin-right: 10px;
 		margin-left: 450px;
 	}
 
@@ -261,7 +246,8 @@ footer{
 		width: 725px;
 		display: block;
 		float: none;
-		margin-left: 25px
+		margin-left: 20px;
+		margin-right: 20px;
 
 	}
 
@@ -275,40 +261,69 @@ footer{
 		float: none;
 		display: block;
 		width: 725px;
-		margin-left: 25px;
-		margin-bottom: 30px
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-bottom: 30px;
+		
+	}
+	.sidebar-container{
+		margin-left: 10px
+	}
+
+
+@media screen and (max-width: 640px){
+
+	.container {
+		width: 640px;
+	}
+
+	#header{
+		height: auto;
+		width: auto;
+
+	}
+
+	h1{
+		width:100%;
+		page-break-after: always;
+		text-align: center;
+		margin-left: 0px;
+	}
+
+	#navbar{
+		margin-left: 0px;
+		text-align: center;
+		padding-top: 100px;
+		padding-bottom: 10px
+	}
+
+	.bio, .portfolio, .contactform{
+		width: 100%;
+		display: block;
+		float: none;
+		margin-left: 0px;
+		margin-right: 0px;
+
+	}
+
+
+			#tjk{
+				float: left;
+				width: 200px;
+				margin-bottom: 20px;
+			}
+	
+	.sidebar{
+		float: none;
+		display: block;
+		width: 100%;
+		margin-left: 0px;
+		padding-right: 400px;
+	
 		
 	}
 	
 
-/*
-@media screen and (max-width: 640px) {
-
-		.container{
-
-		}
-
-		.bio{
-			width: 300px;
-			color: orange;
-			display: block;
-			margin-top: 40px;
-			margin-bottom: 40px;
-			overflow-y: auto;
-			float: none;
-
-		}
-
-		.sidebar{
-			float: none;
-
-		}
-
-
-		
-	}
-
-*/
 
 
 
